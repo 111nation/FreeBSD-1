@@ -1,0 +1,32 @@
+.xfce4-panel#XfcePanelWindowHidden {
+    background: rgba(0,0,0,0); 
+}
+
+#XfcePanelWindow{
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+  background: rgba(4, 1, 14, 1);
+
+  font-family:"Montserrat";
+  font-weight:500;
+}
+
+.xfce4-panel button:hover {
+  /*-gtk-icon-effect: none;*/
+  background: rgba(4, 1, 14, 1);
+
+  border-top-width: 2px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-radius: 0px;
+
+  border-top-color: rgba(255,255,255,0.6);
+}
+
+.xfce4-panel button:active {
+  background-color: rgba(100,100,100,0.3);
+}
